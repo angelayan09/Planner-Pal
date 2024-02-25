@@ -1,0 +1,345 @@
+@font-face {
+	font-family: 'happy';
+	src: url('fonts/HappyLucky-gxnZP.ttf');
+}
+@font-face{
+	font-family: "roboto-regular";
+	src: url("fonts/RobotoRegular-3m4L.ttf")
+}
+@font-face{
+	font-family: "roboto-medium";
+	src: url("fonts/RobotoMedium-Owv4.ttf")
+}
+body{
+	background-color: #add8ff;
+}
+p{
+	font-family: "roboto-medium";
+}
+.title{
+	font-family: 'happy';
+	font-size: 70px;
+	text-align: center;
+	color: #2038c2;
+	text-shadow: 5px 5px 5px #faf9f6;
+	animation: typing 7s forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 0 auto;
+  padding: 90px 0px 0px 0px;
+}
+@keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+}
+.description{
+	border-style: solid;
+	border-radius: 15px;
+	padding: 20px;
+	text-align: justify;
+	text-justify: inter-word;
+	margin: 4% 20% 1% 10%;
+	font-size: 20px;
+  line-height: 30px;
+  float: left;
+}
+
+.creators{
+  text-align: center;
+  margin-top: 3%;
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+
+.name{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.about{
+  margin-right: 5%;
+  text-align: left;
+  line-height: 30px;
+  margin-bottom: 2%;
+}
+
+.pom{
+  border-style: solid;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 4% 1% 1% 15%;
+  font-size: 20px;
+  line-height: 30px;
+  float: left;
+  width: 150%;
+}
+
+html::-webkit-scrollbar {
+	width: 6px;
+}
+html::-webkit-scrollbar-track {
+	background-color: #b8b9bc;
+
+}
+html::-webkit-scrollbar-thumb {
+	background: #fcfcfd;
+	border-radius: 25px;
+}
+
+img {
+  width: 155%;
+  height: auto;
+  float: right;
+  margin-right: 45%;
+}
+.blah{
+  width: 70%;
+  height: auto;
+  float: right;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+.pomodoroimage{
+  width: 48%;
+  margin-right: 35%;
+}
+.top{
+	display:flex;
+}
+.cont{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	text-align: center;
+}
+.grid{
+	width: 20%;
+	border-style: solid;
+	border-radius: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;
+}
+input, option, select{
+	font-family:'roboto-regular';
+	margin: 3px;
+	text-align: center;
+	width: 250px;
+	height: 45px;
+  font-size: 15px;
+	border-color: black;
+	border-radius: 5px;
+}
+.first{
+	background-color: skyblue;
+  color: white
+}
+
+/*fonts */
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.block-relative-left {
+  display: block;
+  float: left;
+	margin: 0;
+}
+
+.block-relative-right {
+  display: block;
+  float: right;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+		  flex-flow: row wrap;
+  align-content: center;
+  -webkit-box-pack: center;
+		  justify-content: center;
+  float: left;
+}
+
+nav {
+  background: cornflowerblue;
+  width: 100%;
+	position:fixed;
+	top:0px;
+}
+nav a, nav button {
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  color: #0044cc;
+  font: 400 16px "Consolas";
+  text-align: center;
+}
+nav a:hover, nav button:hover {
+  background: lightsteelblue;
+  color: white;
+}
+nav a:focus, nav button:focus {
+  background: lightsteelblue;
+  color: #000;
+}
+
+#btnMenu, .fa-times {
+  display: none;
+}
+
+.btn-list {
+  width: 150px;
+	border-width: 0;
+}
+span{
+	color: white;
+}
+
+.visible {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  #btnMenu {
+	display: -webkit-box;
+	display: flex;
+  }
+
+  .menu {
+	background: #333;
+	width: 100%;
+	top: 50px;
+	display: none;
+	position: absolute;
+  }
+  .menu button {
+	width: 100%;
+  }
+
+  .show-menu {
+	display: block;
+  }
+}
+a:hover {
+  background-color: blue;
+}
+
+.bottom{
+	margin-top:30px;
+}
+.bottom2{
+	margin-top:25px;
+}
+.schedule{
+	background-color: skyblue;
+}
+.about{
+	border-style: solid;
+	border-radius: 15px;
+	padding: 20px;
+	font-size: 20px;
+}
+h2{
+	margin-right: 20px;
+	width: 150px;
+}
+.form-button:hover{
+	background: lightsteelblue;
+	color: white;
+}
+.form-button:focus{
+	color:black;
+}
+.time{
+	background: #3847b2;
+	color: white;
+	border-style: solid;
+	border-radius: 55px;
+	border-color: black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 13%;
+}
+.timer-buttons{
+	margin-bottom: 40px;
+}

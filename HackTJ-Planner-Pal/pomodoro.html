@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Planner Pal - Pomodoro</title>
+	<link rel="icon" type="image/x-icon" href="https://cdn-icons-png.freepik.com/512/9156/9156755.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href = "timer.css" rel="stylesheet" type="text/css"/>
+  <link href = "timer_.js" rel="script" type="text/javascript"/>
+</head>
+
+<body>
+  <nav class="block-relative-left">
+    <div class="block-relative-left menu" id="thisMenu">
+      <a href = "index.html"><button class = "flexbox btn-list"><p>Home</p></button></a>
+     <a href = "studytips.html"> <button class="flexbox btn-list"><p>Study Tips</p></button></a>
+    <a href = "pomodoro.html"><button class="flexbox btn-list"><p>Pomodoro</p></button></a>
+      <a href = "about.html"><button class="flexbox btn-list"><p>About</p></button></a>
+    </div>
+
+  </nav>
+  <script src="timer_.js"></script> <!-- AJSLKDFJASLKFJ -->
+  <main>
+    <h1 class="title">Pomodoro</h1>
+    <div class = "top"> <div class="pom roboto-regular">The Pomodoro Technique allows you to focus on your work with periods of breaks in between to reset and maximize your productivity!
+    <li>Enter in your desired work time interval (usually is 25 minutes) </li>
+    <li>Then enter your break interval (usually is 5 minutes)</li>
+    <li>Please enter integer minutes only</li>
+    </div>
+    <span><img class = "pomodoroimage" src="output-onlinepngtools.png" alt="Pomodor"></span></div>
+
+  <center>
+  <h3 class = "time roboto-medium" id="timer">TIMER</h3> <!-- THIS IS THE TIMER -->
+  </center>
+    
+    <div>
+      <center class="bottom2">
+        <input
+          type="text"
+          class="form-control first"
+          placeholder="CYCLE LENGTH"
+          id="cycle"
+        /> 
+        <input
+          type="text"
+          class="form-control first"
+          placeholder="BREAK LENGTH"
+          id="break"
+        /> 
+        
+
+    </center>
+    </div>
+    <div>
+      <center class = "timer-buttons">
+        <input
+        type="button"
+        value="Start"
+        class="form-button bottom first"
+        onclick="startTimer()"
+        /> 
+        <input
+          type="button"
+          value="Pause"
+          class="form-button bottom first"
+          onclick="stopTimer()"
+          /> 
+        <input
+          type="button"
+          value="Resume"
+          class="form-button bottom first"
+          onclick="resumeTimer()"
+          /> 
+      </center>
+    </div>
+
+
+  </main>
+
+</body>
+
+</html>
